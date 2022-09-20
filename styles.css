@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Kaushan+Script&family=Poppins:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins'; sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+#container {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),#675afe),url(images/image-ban.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+
+}
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 80px;
+}
+header .logo p {
+    font-size: 70px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Island Moments' , cursive;
+}
+header .menu {
+    display: flex;
+    list-style: none;
+}
+header .menu li {
+    margin: 0 15px;
+}
+header .menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
