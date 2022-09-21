@@ -40,3 +40,27 @@ header .menu li a {
     text-transform: capitalize;
     color: #fff;
 }
+.container-text {
+    height:  calc(100vh - 80px );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-text h1 {
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Kaushan Script' , cursive;
+    text-transform: uppercase;
+}
+.containeur-text p {
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0 30px 0;
+}
+.container-text a {
+    color: #ffff;
+    text-decoration: 0;
+    text-transform: uppercase;
+    padding: 10px solid #ffff;
+}
