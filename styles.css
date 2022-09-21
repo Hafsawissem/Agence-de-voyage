@@ -7,6 +7,7 @@ font-family: 'Poppins'; sans-serif;
 }
 html {
     scroll-behavior: smooth;
+    scrollbar-color: red;
 }
 #container {
     height: 100vh;
@@ -59,7 +60,10 @@ header .menu li a {
     margin: 20px 0 30px 0;
 }
 .container-text a {
+    text-transform: uppercase;
+    text-decoration: 0;
     color: #fff;
+    padding: 10px 30px;
 }
 .container-text a {
     color: #ffff;
@@ -67,6 +71,9 @@ header .menu li a {
     text-transform: uppercase;
     padding: 10px 30px;
     border: 2px solid#ffff;
+    border-radius: 6px;
+    transition: 0.5s;
+    border: 2px solid #fff;
     border-radius: 6px;
     transition: 0.5s;
 }
@@ -80,4 +87,39 @@ header .menu li a {
 }
 ::-webkit-scrollbar-thumb {
    background-color:#fff; 
+}
+#a-propos {
+    height: 100vh;
+    margin: 0 10%;
+}
+.tittle-section {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#675afe;
+    font-size: 25px;
+}
+.sub-tittle-section {
+text-align: center;
+font-weight: bold;
+text-align: center;
+font-weight: bold;
+color: #657afe;
+font-size: 25px;
+}
+.sub-tittle-section { 
+text-align: center;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 20px;
+}
+
+.description-photo {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 50px;
+ height: 358px;
+
+
 }
